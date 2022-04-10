@@ -9,11 +9,11 @@ deployment.apps/nginx-deployment created
 root@kuber1:/home/admin/dev# kubectl apply -f nginx-hello.yaml
 deployment.apps/nginx-hello created
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 | 
+| NAME             | Ready   | UP-TO-DATE  | AVAILABLE | AGE   |
+| ---------------- |:-------:| :----------:|:---------:|------:|
+| hello-node       | 1/1     | 1           | 1         | 163m  |
+| nginx-deployment | 2/2     | 2           | 2         | 23m   |
+| nginx-hello      | 2/2     | 2           | 2         | 6m56s |
 
 2. Просмотр логов для разработки
 
