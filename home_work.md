@@ -29,8 +29,43 @@ root@kuber1:/home/admin/dev#  kubectl get pods
 
 2. Просмотр логов для разработки
 
-Скрин положил отдельно в репозиторий 
-
+Конфиг: 
+root@kuber1:~/.kube# kubectl config view
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority: /root/.minikube/ca.crt
+    extensions:
+    - extension:
+        last-update: Fri, 08 Apr 2022 09:06:36 UTC
+        provider: minikube.sigs.k8s.io
+        version: v1.25.2
+      name: cluster_info
+    server: https://10.128.0.20:8443
+  name: minikube
+contexts:
+- context:
+    cluster: minikube
+    extensions:
+    - extension:
+        last-update: Fri, 08 Apr 2022 09:06:36 UTC
+        provider: minikube.sigs.k8s.io
+        version: v1.25.2
+      name: context_info
+    namespace: default
+    user: minikube
+  name: minikube
+current-context: minikube
+kind: Config
+preferences: {}
+users:
+- name: minikube
+  user:
+    client-certificate: /root/.minikube/profiles/minikube/client.crt
+    client-key: /root/.minikube/profiles/minikube/client.key
+- name: test
+  user:
+    token: REDACTED
 Просмотр логов: 
 
 Скрин положил отдельно в репозиторий 
