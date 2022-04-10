@@ -29,7 +29,7 @@ root@kuber1:/home/admin/dev#  kubectl get pods
 
 2. Просмотр логов для разработки
 
-nline-style: 
+Конфиг: 
 ![alt text](https://github.com/Andrey-netology/12.2/blob/main/2.1.JPG "Logo Title Text 1")
 
 
