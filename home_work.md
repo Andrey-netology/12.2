@@ -33,7 +33,8 @@ root@kuber1:/home/admin/dev#  kubectl get pods
 ![alt text](https://github.com/Andrey-netology/12.2/blob/main/2.1.JPG "Logo Title Text 1")
 
 
-Скрин положил отдельно в репозиторий 
+Логи: 
+![alt text](https://github.com/Andrey-netology/12.2/blob/main/2.2.JPG "Logo Title Text 1")
 
 
 
