@@ -44,4 +44,6 @@ POD:
 root@kuber1:/home/admin/dev# kubectl apply -f nginx-hello.yaml
 deployment.apps/nginx-hello configured
 
-Скрин положил отдельно в репозиторий 
+Реплики: 
+![alt text](https://github.com/Andrey-netology/12.2/blob/main/3.1.JPG "Logo Title Text 1")
+
