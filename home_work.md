@@ -36,7 +36,8 @@ root@kuber1:/home/admin/dev#  kubectl get pods
 Логи: 
 ![alt text](https://github.com/Andrey-netology/12.2/blob/main/2.2.JPG "Logo Title Text 1")
 
-
+POD: 
+![alt text](https://github.com/Andrey-netology/12.2/blob/main/2.3.JPG "Logo Title Text 1")
 
 3. Изменение количества реплик
 
