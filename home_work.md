@@ -29,10 +29,10 @@ root@kuber1:/home/admin/dev#  kubectl get pods
 
 2. Просмотр логов для разработки
 
-Конфиг: 
+Создал пользователя через готовый скрипт https://github.com/robertwalid/K8s_User_Creation_X509_Certs: 
 ![alt text](https://github.com/Andrey-netology/12.2/blob/main/kuber1.JPG "Logo Title Text 1")
 
-Конфиг2:
+Конфиг:
 ![alt text](https://github.com/Andrey-netology/12.2/blob/main/kuber2.JPG "Logo Title Text 1")
 
 Назначение прав:
