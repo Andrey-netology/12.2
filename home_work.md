@@ -35,34 +35,8 @@ root@kuber1:/home/admin/dev#  kubectl get pods
 Конфиг:
 ![alt text](https://github.com/Andrey-netology/12.2/blob/main/kuber2.JPG "Logo Title Text 1")
 
-Назначение прав:
-apiVersion: rbac.authorization.k8s.io/v1
-kind: RoleBinding
-metadata:
-  name: Werg
-  namespace: nginx-hello
-subjects:
-- kind: User
-  name: Werg
-  apiGroup: rbac.authorization.k8s.io
-roleRef:
-  kind: ClusterRole
-  name: edit
-  apiGroup: rbac.authorization.k8s.io
----------------------------------
-apiVersion: rbac.authorization.k8s.io/v1
-kind: RoleBinding
-metadata:
-  name: Werg
-  namespace: nginx-hello
-subjects:
-- kind: User
-  name: Werg
-  apiGroup: rbac.authorization.k8s.io
-roleRef:
-  kind: ClusterRole
-  name: view
-  apiGroup: rbac.authorization.k8s.io
+Назначение прав пользователю:
+![alt text](https://github.com/Andrey-netology/12.2/blob/main/kuber3.JPG "Logo Title Text 1")
 
 Логи: 
 ![alt text](https://github.com/Andrey-netology/12.2/blob/main/2.2.JPG "Logo Title Text 1")
